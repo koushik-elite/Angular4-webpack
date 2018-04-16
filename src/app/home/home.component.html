@@ -1,0 +1,25 @@
+<p>
+  home works!
+</p>
+<ngx-carousel
+      [inputs]="carouselOne"
+      (carouselLoad)="myfunc($event)">
+        <ngx-item NgxCarouselItem>
+          ....
+        </ngx-item>
+        <ngx-item NgxCarouselItem>
+          ....
+        </ngx-item>
+        <ngx-item NgxCarouselItem>
+          ....
+        </ngx-item>
+        <button NgxCarouselPrev class='leftRs'>&lt;</button>
+        <button NgxCarouselNext class='rightRs'>&gt;</button>
+  </ngx-carousel>
+  
+<div 
+        angulartics2On="click" 
+          angularticsAction="mailinglist-submit" 
+          [angularticsProperties]="{'action':'mailinglist-submit', 'label': 'Mailing List standalone page '}" class="btn btn-default submit">
+    Click Me
+  </div>
