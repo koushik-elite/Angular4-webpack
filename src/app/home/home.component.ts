@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { angulartics2DTM } from '../adobedtm/angulartics2-dtm';
 import { NgxCarousel } from 'ngx-carousel';
 
 @Component({
@@ -11,7 +10,7 @@ export class HomeComponent implements OnInit {
 
   public carouselOne: NgxCarousel;
 
-  constructor(private angulartics2: angulartics2DTM,) { }
+  constructor() { }
 
   ngOnInit() {
     this.carouselOne = {
