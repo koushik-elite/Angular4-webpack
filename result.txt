@@ -1,5 +1,5 @@
 
-> sparta6@0.0.0 build D:\Angular\ngd8
+> elite6@0.0.0 build D:\Angular\ngd8
 > webpack
 
 Hash: f344b248c2776cec2121

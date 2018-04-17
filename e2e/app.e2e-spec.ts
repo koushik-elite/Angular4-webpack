@@ -1,10 +1,10 @@
-import { Sparta6Page } from './app.po';
+import { Elite6Page } from './app.po';
 
-describe('sparta6 App', () => {
-  let page: Sparta6Page;
+describe('elite6 App', () => {
+  let page: Elite6Page;
 
   beforeEach(() => {
-    page = new Sparta6Page();
+    page = new Elite6Page();
   });
 
   it('should display welcome message', () => {

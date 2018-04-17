@@ -1,6 +1,6 @@
 import { browser, by, element } from 'protractor';
 
-export class Sparta6Page {
+export class Elite6Page {
   navigateTo() {
     return browser.get('/');
   }
